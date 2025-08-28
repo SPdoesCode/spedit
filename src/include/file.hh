@@ -1,5 +1,6 @@
 #pragma once
 
+#include <cstddef>
 #include <vector>
 #include <string>
 
@@ -30,6 +31,9 @@ namespace file {
         std::size_t lines_num;
         std::size_t current_y;
         std::size_t current_x;
+
+        std::size_t scroll_y;
+        std::size_t scroll_x;
 
     } file_data;
 
